@@ -1,7 +1,4 @@
-var audio = new Audio('assets/sentmessage.mp3');
-var contactString = "<div class='social'> <a target='_blank' href='tel:+918600765857'> <div class='socialItem' id='call'><img class='socialItemI' src='images/phone.svg'/><label class='number'>8600765857</label></div> </a> <a href='mailto:patilvinu777@gmail.com'> <div class='socialItem'><img class='socialItemI' src='images/gmail.svg' alt=''></div> </a> <a target='_blank' href='https://github.com/Vinayak-09'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a> <a target='_blank' href='https://wa.me/918600765857'> <div class='socialItem'><img class='socialItemI' src='images/whatsapp.svg' alt=''></div> </a> <a target='_blank' href='https://t.me/vinayak_09'> <div class='socialItem'><img class='socialItemI' src='images/telegram.svg' alt=''></div> </a> <a target='_blank' href='https://instagram.com/vinayak_patil_09'> <div class='socialItem'><img class='socialItemI' src='images/instagram.svg' alt=''> </div> </a> <a href='https://www.linkedin.com/in/vinayak-patil-793bb5206/' target='_blank' rel='noopener noreferrer'> <div class='socialItem'><img class='socialItemI' src='images/linkedin.svg' alt=''></div> </a> </div>";
-var resumeString = "<img src='images/resumeThumbnail.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/pdf.png'><label>Vinayak Resume.pdf</label></div><a href='assets/Vinayak Patil&#39;s Resume.pdf' download='Vinayak_Patil_Resume.pdf'><img class='download' src='images/downloadIcon.svg'></a></div>";
-var addressString = "<div class='mapview'><iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238.63833262443757!2d74.19014864534314!3d16.865338763272877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc1a7dcf40f5dd7%3A0xd7b69fe1fcfa9877!2zMTbCsDUxJzU1LjQiTiA3NMKwMTEnMjUuMyJF!5e0!3m2!1sen!2sin!4v1645079906766!5m2!1sen!2sin' class='map'></iframe></div><label class='add'><address>B2 'Asara'<br>Kodoli<br>Kolhapur, Maharashtra, INDIA 416114</address>";
+
 var photoString = "<img src='images/dp.jpg' class='resumeThumbnail'><label>I LOVE YOU</label>";
 var firstpicString = "<img src='images/FIRST_PIC.jpg' class='resumeThumbnail'><label>First meetup</label><img src='images/f1.jpg' class='resumeThumbnail'><label>Firstpic</label><img src='images/F13.jpg' class='resumeThumbnail'><img src='images/f2.jpg' class='resumeThumbnail'><label>First Selfie</label><img src='images/f3.jpg' class='resumeThumbnail'><label>First Ride </label><img src='images/f4.jpg' class='resumeThumbnail'><label>First meetup with grandparents</label><img src='images/f5.jpg' class='resumeThumbnail'><label>Our Journery for an offical peenukanal</label><img src='images/f6.jpg' class='resumeThumbnail'><label>Offical Peenukanal</label><img src='images/f7.jpg' class='resumeThumbnail'><label>First dayout</label><img src='images/f8.jpg' class='resumeThumbnail'><label>Most beautiful hangout </label>";
 var preweddingString = "<label>Pre-Wedding</label><img src='images/b1.jpg' class='resumeThumbnail'><img src='images/b2.jpg' class='resumeThumbnail'><img src='images/b3.jpg' class='resumeThumbnail'><img src='images/b4.jpg' class='resumeThumbnail'><img src='images/b5.jpg' class='resumeThumbnail'><img src='images/b7.jpg' class='resumeThumbnail'><img src='images/b8.jpg' class='resumeThumbnail'><img src='images/b9.jpg' class='resumeThumbnail'><img src='images/b10.jpg' class='resumeThumbnail'><img src='images/b11.jpg' class='resumeThumbnail'>"
@@ -84,34 +81,17 @@ function waitAndResponce(inputText) {
             sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about our blessings ...<br>Our Journey of Love❤️ <br><span class='bold'>'photo'</span> - Gods Blessing<br><span class='bold'>'firstpic'</span> <br><span class='bold'>'prewedding'</span> <br><span class='bold'>'postwedding'</span> <br><span class='bold'>'journey'</span> <br><span class='bold'>'My heart'</span> <br><span class='bold'>'clear'</span> - to clear conversation<br><span class='bold'>'about'</span> - to know about this site</span>");
             break;
        
-        case "skills":
-            sendTextMessage("<span class='sk'>I am currently pursuing B.Tech degree in Computer Science Engineering.<br><br>I can comfortably write code in following languages :<br><span class='bold'>Java<br>C++<br>C<br>PHP<br>Kotlin<br>Dart<br>Python<br>CSS<br>HTML</span><br><br>I've experiance with following frameworks :<span class='bold'><br>Android<br>Flutter<br>ReactJs<br>GTK</span><br><br>I use <span class='bold'>Arch Linux</span> as daily driver on my HP Pavilion 15-ec0xxx<br>OS:Arch Linux<br>DE:Gnome(More often) Kde(often)<br>Favourite IDE:VSCode</span>");
-            break;
-
-        case "education":
-            sendTextMessage("I am currsssssssssssssssssssssssssently pusuing B.Tech degree in Computer Science Engineering from TKIET Kolhapur<br>Passing Year : 2023<br><br>I have completed my Diploma from Government Polytechnic Karad<br>Passing Year:2020<br>Result:86.06%<br><br>I have completed my Secondary school from local school known as SWV<br>Passing Year:2016");
-            break;
-
-        case "address":
-            sendTextMessage(addressString);
+        case "message":
+            sendTextMessage("<span class='sk'>My heart 😍 is overflowing with gratitude and love. You are the light of my life, my partner, my soulmate, and my best friend. I am so blessed to have you by my side through all the ups and downs of life.....From the moment I saw you, I knew that you were the one I had been waiting for my entire life. </span>");
             break;
            
         case "clear":
             clearChat();
             break;
         case "about":
-            sendTextMessage("🛠️💻 <br><br>👨🏻‍💻 Designed and Developed by <span class='bold'>Sanoj ❤️ Tintu </a> with Lots ❤️</span>");
+            sendTextMessage("🛠️💻 <br><br>🧜🏻‍♂️Designed and Developed by <span class='bold'>SanojTintu </a> with Lots ❤️ and Prayer</span>");
             break;
-        case "contact":
-            sendTextMessage(contactString);
-            break;
-        case "projects":
-            sendTextMessage("You want to check my projects? Then just jump into my Github Account.<br><br><div class='social'><a target='_blank' href='https://github.com/Vinayak-09'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a></div>");
-            break;
-        case "new":
-            sendTextMessage(addressString);
-            break;
-
+        
         case "photo":
                 sendTextMessage(photoString);
                 break;
