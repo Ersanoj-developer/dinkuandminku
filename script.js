@@ -74,11 +74,11 @@ function waitAndResponce(inputText) {
     switch (inputText.toLowerCase().trim()) {
         case "intro":
             setTimeout(() => {
-                sendTextMessage("Hello My dear Minku 👋🏻,<br>with Lots of Love<br>  <span class='bold'><a class='alink'>Am your Dinku</a>.</span><br><br>Hope your cherish this beautiful day<span class='bold'> I wanted to take a moment to express my feelings for you and put them into words. </span><br><br>I am eager to express it<br><br>Send <span class='bold'>'help'</span> to know more about me.<br>");
+                sendTextMessage("Hello My dear Minku 👋🏻,<br>with Lots of Love❤️<br>  <span class='bold'><a class='alink'>Am your Dinku❤️</a>.</span><br><br>Hope your cherish this beautiful day - <br> Our Wedding 21-04-2022 ❤️<br><span class='bold'> I wanted to take a moment to express my feelings for you and put them into words. </span><br><br>I am eager to express it<br><br>Send <span class='bold'>'help'</span> To put a smile in your heart my dear minku❤️.<br><br> Your Dinku will help you to explore the world<br> Minku am coming 🏃🏻‍♀️ 🏃🏻 🏃🏻‍♂️🧗🏻‍♀️ 🧗🏻 🧗🏻‍♂️ 🏇🏻 🏂🏻");
             }, 2000);
             break;
         case "help":
-            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about our blessings ...<br>Our Journey of Love❤️ <br><span class='bold'>'photo'</span> - Gods Blessing<br><span class='bold'>'firstpic'</span> <br><span class='bold'>'prewedding'</span> <br><span class='bold'>'postwedding'</span> <br><span class='bold'>'journey'</span> <br><span class='bold'>'My heart'</span> <br><span class='bold'>'clear'</span> - to clear conversation<br><span class='bold'>'about'</span> - to know about this site</span>");
+            sendTextMessage("<span class='sk'>Minku you  what you want to know about our blessings ...<br>Our Journey of Love❤️ <br><span class='bold'>'photo'</span> <br><span class='bold'>'firstpic'</span> <br><span class='bold'>'prewedding'</span> <br><span class='bold'>'postwedding'</span> <br><span class='bold'>'journey'</span> <br><span class='bold'>'clear'</span> - to clear conversation");
             break;
        
         case "message":
@@ -89,7 +89,7 @@ function waitAndResponce(inputText) {
             clearChat();
             break;
         case "about":
-            sendTextMessage("🛠️💻 <br><br>🧜🏻‍♂️Designed and Developed by <span class='bold'>SanojTintu </a> with Lots ❤️ and Prayer</span>");
+            sendTextMessage("🛠️💻 <br><br>🧜🏻‍♂️ <span class='bold'>SanojTintu </a> with Lots ❤️ and Prayer");
             break;
         
         case "photo":
@@ -107,10 +107,19 @@ function waitAndResponce(inputText) {
                         break;    
         case "journey":
                         sendTextMessage(journeyString);
-                        break;                            
+                        break; 
+        case "dinku":
+            sendTextMessage("<span class='sk'>My Love for you as our blessings ...<br>Our Journey of Love❤️ <br><span class='bold'>'my heart'</span> <br><span class='bold'>'my love'</span> ");
+            break;                  
+         case "my heart":
+                        sendTextMessage("<span class='sk'>Hey My dear Minku...<br>I just want you to know this on our special day<br> You always ask me why do you Love me so much <br>You saw me in my ugly face,<br>You saw me with no money<br>You saw me struggling everyday<br>You saw me crying and laughing<br> You saw my Ups and downs,<br>I have seen you with pure love for me in your eyes<br>Still you never leaves me alone in any condition and supported me everywhere and having same love for me in you eyes❤️😍.You are the light of my life, and I cannot imagine living without you...... </span>");
+                        break;   
+        case "my love":
+                        sendTextMessage("<span class='sk'>From the moment I met you, I knew you were someone special.You are the most caring, compassionate, and supportive person I have ever known. You have stood by me through the good times and the bad, and your unwavering love has been a source of strength for me. I cannot thank you enough for all the times you have lifted me up and helped me. Feels so lucky to be married to you. You are not only my wife but also my best friend, my partner in crime, and my soulmate. I cherish every moment we spend together and our costly fights, whether we are traveling to new places or to the same old murivilangu waterfall, enjoying a quiet evening and morning at home, or just having a deep conversation about someones life .Being prossesive.I want you to know that I will always be there for you, through thick and thin. I will support you, encourage you, and love you unconditionally. I will be your rock when you need me, and I will never let you down.Thank you for being my wife, my lover, and my friend. I love you more than words can express,");
+                        break;                
         default:
             setTimeout(() => {
-                sendTextMessage("Hey I couldn't catch you Minku...😢<br>Send 'help' Your Dinku Will come to Help You .");
+                sendTextMessage("Hey I couldn't catch you Minku...😢<br>Send 'help' <br>Your Dinku Will come to Help You 🏇🏼🏃🏼‍♀️🏃🏼‍♀️🏃🏼‍♀️🏃🏼‍♀️🏃🏼‍♀️🏃🏼‍♀️🏃🏼‍♀️🏃🏼‍♀️<br>Dinku am coming💏🏻  .");
             }, 2000);
             break;
     }
