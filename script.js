@@ -77,6 +77,7 @@ function waitAndResponce(inputText) {
                 sendTextMessage("Hello My dear Minku 👋🏻,<br>with Lots of Love❤️<br>  <span class='bold'><a class='alink'>Am your Dinku❤️</a>.</span><br><br>Hope your cherish this beautiful day - <br> Our Wedding 21-04-2022 ❤️<br><span class='bold'> I wanted to take a moment to express my feelings for you and put them into words. </span><br><br>I am eager to express it<br><br>Send <span class='bold'>'help'</span> To put a smile in your heart my dear minku❤️.<br><br> Your Dinku will help you to explore the world<br> Minku am coming 🏃🏻‍♀️ 🏃🏻 🏃🏻‍♂️🧗🏻‍♀️ 🧗🏻 🧗🏻‍♂️ 🏇🏻 🏂🏻");
             }, 2000);
             break;
+            
         case "help":
             sendTextMessage("<span class='sk'>Minku you  what you want to know about our blessings ...<br>Our Journey of Love❤️ <br><span class='bold'>'photo'</span> <br><span class='bold'>'firstpic'</span> <br><span class='bold'>'prewedding'</span> <br><span class='bold'>'postwedding'</span> <br><span class='bold'>'journey'</span> <br><span class='bold'>'clear'</span> - to clear conversation");
             break;
@@ -89,7 +90,11 @@ function waitAndResponce(inputText) {
             clearChat();
             break;
         case "about":
-            sendTextMessage("🛠️💻 <br><br>🧜🏻‍♂️ <span class='bold'>SanojTintu </a> with Lots ❤️ and Prayer");
+            sendTextMessage("<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>");
             break;
         
         case "photo":
